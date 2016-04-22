@@ -1,0 +1,29 @@
+{
+  "name": "easyf/easydb",
+  "type": "library",
+  "description": "Simple and fast ORM",
+  "homepage": "https://github.com/alfonsmartinez/EasyDB",
+  "keywords": [
+    "orm"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alfons Martinez",
+      "email": "alfonsmartinezparra@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EasyDB\\": "src/EasyDB"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "mrjgreen/database": "^2.5",
+    "easyf/easycache": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
